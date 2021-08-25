@@ -4,8 +4,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/HPISTechnologies/common-lib/intl/common"
-	"github.com/HPISTechnologies/common-lib/intl/types"
+	"github.com/arcology/common-lib/intl/common"
+	"github.com/arcology/common-lib/intl/types"
 )
 
 type Cache struct {

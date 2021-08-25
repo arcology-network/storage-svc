@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/HPISTechnologies/common-lib/extl/cli"
-	"github.com/HPISTechnologies/storage-svc/node"
+	"github.com/arcology/common-lib/extl/cli"
+	"github.com/arcology/storage-svc/node"
 )
 
 func main() {

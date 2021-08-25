@@ -3,9 +3,9 @@ package node
 import (
 	"github.com/spf13/cobra"
 
-	cmn "github.com/HPISTechnologies/common-lib/extl/common"
+	cmn "github.com/arcology/common-lib/extl/common"
 
-	"github.com/HPISTechnologies/common-lib/intl/toolkit"
+	"github.com/arcology/common-lib/intl/toolkit"
 )
 
 var StartCmd = &cobra.Command{

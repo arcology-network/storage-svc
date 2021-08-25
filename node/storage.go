@@ -10,20 +10,20 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/HPISTechnologies/common-lib/extl/cli"
-	cmn "github.com/HPISTechnologies/common-lib/extl/common"
-	"github.com/HPISTechnologies/common-lib/extl/log"
-	"github.com/HPISTechnologies/common-lib/intl/common"
-	"github.com/HPISTechnologies/common-lib/intl/kafka"
-	"github.com/HPISTechnologies/common-lib/intl/types"
-	"github.com/HPISTechnologies/component-lib/intl/actor"
-	"github.com/HPISTechnologies/component-lib/intl/component"
+	"github.com/arcology/common-lib/extl/cli"
+	cmn "github.com/arcology/common-lib/extl/common"
+	"github.com/arcology/common-lib/extl/log"
+	"github.com/arcology/common-lib/intl/common"
+	"github.com/arcology/common-lib/intl/kafka"
+	"github.com/arcology/common-lib/intl/types"
+	"github.com/arcology/component-lib/intl/actor"
+	"github.com/arcology/component-lib/intl/component"
 
-	"github.com/HPISTechnologies/eth-lib/ethdb"
-	"github.com/HPISTechnologies/eth-lib/rlp"
+	"github.com/arcology/eth-lib/ethdb"
+	"github.com/arcology/eth-lib/rlp"
 	"github.com/spf13/viper"
 
-	"github.com/HPISTechnologies/component-lib/intl/module"
+	"github.com/arcology/component-lib/intl/module"
 )
 
 type Storage struct {

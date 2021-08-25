@@ -3,7 +3,7 @@ package node
 import (
 	"sync"
 
-	"github.com/HPISTechnologies/common-lib/intl/types"
+	"github.com/arcology/common-lib/intl/types"
 )
 
 type CacheCls struct {
