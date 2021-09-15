@@ -3,7 +3,7 @@ package node
 import (
 	"sync"
 
-	"github.com/arcology/common-lib/intl/common"
+	"github.com/arcology-network/common-lib/intl/common"
 )
 
 type CacheCode struct {

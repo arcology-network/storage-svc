@@ -1,9 +1,9 @@
 package node
 
 import (
-	"github.com/arcology/common-lib/intl/common"
-	"github.com/arcology/common-lib/intl/types"
-	"github.com/arcology/eth-lib/rlp"
+	"github.com/arcology-network/common-lib/intl/common"
+	"github.com/arcology-network/common-lib/intl/types"
+	"github.com/arcology-network/eth-lib/rlp"
 )
 
 //--------------------------------------------------------------------------------

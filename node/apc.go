@@ -3,8 +3,8 @@ package node
 import (
 	"sync"
 
-	"github.com/arcology/common-lib/intl/common"
-	"github.com/arcology/common-lib/intl/types"
+	"github.com/arcology-network/common-lib/intl/common"
+	"github.com/arcology-network/common-lib/intl/types"
 )
 
 type Apc struct {
