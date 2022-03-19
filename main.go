@@ -1,17 +1,24 @@
 package main
 
 import (
+	"log"
 	"os"
 
-	"github.com/arcology-network/common-lib/extl/cli"
-	"github.com/arcology-network/storage-svc/node"
+	"net/http"
+	_ "net/http/pprof"
+
+	tmCli "github.com/arcology-network/3rd-party/tm/cli"
+	"github.com/arcology-network/storage-svc/service"
 )
 
 func main() {
+	go func() {
+		log.Println(http.ListenAndServe("localhost:6060", nil))
+	}()
 
-	st := node.StartCmd
+	st := service.StartCmd
 
-	cmd := cli.PrepareMainCmd(st, "BC", os.ExpandEnv("$HOME/monacos/storage"))
+	cmd := tmCli.PrepareMainCmd(st, "BC", os.ExpandEnv("$HOME/monacos/storage"))
 	if err := cmd.Execute(); err != nil {
 		os.Exit(1)
 	}
